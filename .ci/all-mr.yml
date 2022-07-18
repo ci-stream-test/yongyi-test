@@ -15,7 +15,7 @@ variables:
   EVENT: xxx
  
 stages:
-- name: 预设替换变量1
+- name: 预设替换变量11
   jobs:
     all-job-0:
       steps:
