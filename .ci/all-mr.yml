@@ -5,9 +5,9 @@ name: 全部语法测试-MR(无模板)
 on:
   mr:
     target-branches:
-      - master
+      - main
     paths:
-      - triggers/trigger-all.txt
+      - .ci/all-mr.yml
   
 variables:
   WINDOW_TRIGGER: false
